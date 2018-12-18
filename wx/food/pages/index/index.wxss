@@ -1,0 +1,9 @@
+/**index.wxss**/
+/**一轮播图**/
+.slider,.slider swiper,.slider image{
+  height:390rpx;
+  width:100%;
+}
+/**二九宫格**/
+/**三分隔线**/
+/****/
