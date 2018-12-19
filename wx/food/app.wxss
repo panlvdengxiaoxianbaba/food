@@ -8,37 +8,3 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
-.index-nav{
-  display:flex;
- flex-wrap:no-wrap;
-}
-.firstCon{
-  margin-top:15rpx;
-  background:#eee;
-}
-text{
-  font-size:30rpx;
-  color:#333;
-  font-weight:bold;
-  font-family:'仿宋';
-}
-.nav-item{
-  margin-left:10px;
-  width:25%;
-  height:240prx;
-  box-sizing:border-box;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  font-size:14px;
-  border-right:1rpx solid #aaa;
-  border-bottom:1rpx solid #aaa;
-  border-radius:9rpx;
-}
-.divider{height:30rpx;background:#f1f1f1;}
-/* .nav-item:nth-child(3n){border-right:0 none;} */
-.nav-item image{
-  width:240rpx;
-  height:240rpx;
-}

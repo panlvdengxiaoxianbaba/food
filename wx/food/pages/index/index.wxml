@@ -13,13 +13,23 @@
   <view class='firstCon'>
   <text>传统菜系</text>
   <view class='divider'></view>
-  <view class='index-nav'>
+  <scroll-view scroll-x='true'>
+  <view class='index-nav' scroll-x='true'>
       <view class='nav-item' wx:for="{{navlist}}" wx:key='index'>
-          <image src='{{item.img_url}}' lay-load mode='aspectFill'></image>
+          <image src='{{item.img_url}}' lay-load mode='aspectFill'            bindtap='jumpType' data-type='{{item.type}}'></image>
           <text>{{item.title}}</text>
       </view>
   </view>
+  </scroll-view>
   </view>
   <view class='divider'></view>
-  
+  <view class='secondCon'>
+      
+      <view class='secondCon-item' wx:for='{{showlist}}' wx:key='index'>
+          <text class='sec-title'>舌尖推荐</text>
+          <image src='{{item.img_url}}' lazy-load mode='aspectFill' catchtap='articalShow'
+          data-show='{{item.show}}'>
+          </image>
+      </view>
+  </view>
 </view>

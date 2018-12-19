@@ -1,0 +1,13 @@
+/* pages/type/type.wxss */
+.showTitle{font-size:30rpx;font-color:#777;
+border-bottom:1rpx solid #eee;padding:8rpx 0;text-align:center;}
+.type-list{display:flex;border-bottom:1rpx solid #bbb;padding:15rpx 0;}
+.type-list image{height:150rpx;width:150rpx}
+.type-img{width:20%;padding:0 8rpx;}
+.type-middle{width:80%;margin-left:10rpx;}
+.type-title{font-size:30rpx;}
+.type-can{font-size:25rpx;}
+.type-info{font-size:25rpx;}
+.type-details{height:100rpx;}
+.before{color:#f19e38}
+.after{color:#e2e2e2}

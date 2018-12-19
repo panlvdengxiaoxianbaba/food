@@ -1,0 +1,22 @@
+<!--pages/type/type.wxml-->
+<view>
+  <view class='showTitle'>
+    川菜食谱大全
+  </view>
+  <view class='type-list'>
+    <view class='type-img'>
+       <image src='/pages/img/eg.jpeg' lazy-load mode='aspectFill'></image>
+    </view>
+    <view class='type-middle'>
+      <text class='type-title'>鱼香肉丝</text>
+      <view class='type-can'>
+          <view class='after'>★★★★★</view>
+          <view class='before'>★★★★★</view>
+          <text class='type-info'>
+          鱼香肉丝是一道精美的川菜，据科学研究，多吃一口鱼香肉丝所补充的微量元素是吃人参的三倍，中医也认为吃鱼香肉丝可以延年益寿，滋阴补阳，调节肝脾，尤其对月经不调的女性，鱼香肉丝是治疗宫寒最合适的食膳。
+        </text>
+      </view>
+      
+    </view>
+  </view>
+</view>

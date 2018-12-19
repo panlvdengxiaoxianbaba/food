@@ -1,2 +1,22 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class='article'>
+  <view class='article-item'>
+    <view class='article-main'>
+      包总书记心中，和台湾的不解深情
+    </view>
+    <view class='article-second'>
+      <view><text>震惊！解放军研发出新的武器，美国这次真的怂了</text>
+        <image src='/pages/img/eg.jpeg' mode='aspectFill' lazy-load></image>
+      </view>
+      <view><text>这次真的要出事了，不转不是中国人</text>
+        <image src='/pages/img/eg.jpeg' mode='aspectFill' lazy-load></image>
+      </view>
+      <view><text>新政策出台，没生娃的快来看</text>
+        <image src='/pages/img/eg.jpeg' mode='aspectFill' lazy-load></image>
+      </view>
+      <view><text>最新消息，这些人要发财了，快来看有没有你</text>
+        <image src='/pages/img/eg.jpeg' mode='aspectFill' lazy-load></image>
+      </view>  
+    </view>
+  </view>
+</view>
