@@ -1,0 +1,22 @@
+<!--pages/type/type.wxml-->
+<view>
+  <view class='showTitle'>
+    川菜食谱大全
+  </view>
+  <view class='type-list' wx:for='{{info}}' wx:key='index'>
+    <view class='type-img'>
+       <image src='{{item.img_url}}' lazy-load mode='aspectFill'></image>
+    </view>
+    <view class='type-middle'>
+      <text class='type-title'>{{item.title}}</text>
+      <view class='type-can'>
+          <view class='after'>★★★★★</view>
+          <view class='before'>★★★★★</view>
+          <text class='type-info .ell'>
+          {{item.info}}
+        </text>
+      </view>
+      
+    </view>
+  </view>
+</view>

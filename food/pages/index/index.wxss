@@ -1,0 +1,80 @@
+/**index.wxss**/
+/**一轮播图**/
+.slider,.slider swiper,.slider image{
+  height:390rpx;
+  width:100%;
+}
+/**二九宫格**/
+.index-nav{
+ display:flex;
+ flex-wrap:no-wrap;
+}
+.firstCon{
+  margin-top:15rpx;
+  background:#eee;
+}
+text{
+  font-size:30rpx;
+  color:#333;
+  font-weight:bold;
+  font-family:'仿宋';
+}
+.nav-item{
+  margin-left:10px;
+  width:25%;
+  height:240prx;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  font-size:14px;
+  border-right:1rpx solid #aaa;
+  border-bottom:1rpx solid #aaa;
+  border-radius:9rpx;
+}
+.divider{height:30rpx;background:#f1f1f1;}
+/* .nav-item:nth-child(3n){border-right:0 none;} */
+.nav-item image{
+  width:240rpx;
+  height:240rpx;
+}
+/**三分隔线**/
+.secondCon{
+  display:flex;
+  flex-wrap:wrap;
+  position:relative;
+}
+.secondCon-item{
+  width:50%;
+  height:240rpx;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:-25rpx; 
+}
+.secondCon-item image{
+  width:360rpx;
+  height:200rpx;
+  border-radius:8rpx;
+
+}
+.sec-title{
+  position:absolute;
+  top:0;
+  left:0;
+  font-size:30rpx;
+  font-weight:normal;
+  color:#fda;
+  line-height: 35rpx;
+  border-top:15rpx solid #fa8610;
+  border-left:15rpx solid #fa8610;
+  border-bottom:15rpx solid transparent;
+  border-right:15rpx solid transparent;
+}
+
+
+
+/****/
